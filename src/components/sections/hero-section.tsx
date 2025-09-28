@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="relative z-20 h-full flex items-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center md:justify-end">
-              <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 md:p-12 max-w-md shadow-lg text-center md:text-right !w-[325px] !h-full md:!max-w-[325px]">
+              <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 md:p-12 max-w-md shadow-lg text-center md:text-right !w-[366px] !h-full md:!max-w-[366px]">
                   <h2 className="text-white text-3xl md:text-4xl font-semibold leading-tight !whitespace-pre-line" style={{ fontFamily: 'var(--font-display)' }}>
 
               </h2>
@@ -42,7 +42,7 @@ const HeroSection = () => {
                   href="/collections/edition-2"
                   className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors">
 
-                        <span>النسخة الثانية</span>
+                        <span>ا</span>
                         <ChevronLeft size={20} className="mr-2" />
                     </Link>
                   </div>
