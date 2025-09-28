@@ -13,8 +13,8 @@ const HeroSection = () => {
           fill
           style={{ objectFit: 'cover' }}
           quality={100}
-          priority
-        />
+          priority />
+
       </div>
       
       <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20 z-10" />
@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="relative z-20 h-full flex items-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center md:justify-end">
-              <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 md:p-12 max-w-md md:max-w-lg shadow-lg text-center md:text-right">
+              <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 md:p-12 max-w-md shadow-lg text-center md:text-right !w-[512px] !h-full md:!max-w-lg">
                   <h2 className="text-white text-3xl md:text-4xl font-semibold leading-tight" style={{ fontFamily: 'var(--font-display)' }}>
                     دواسات سيارات فاخرة. مصممة في ألمانيا.
                   </h2>
@@ -32,26 +32,26 @@ const HeroSection = () => {
 
                   <div className="mt-8 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
                     <Link
-                        href="/collections/edition-i"
-                        className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors"
-                    >
+                  href="/collections/edition-i"
+                  className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors">
+
                         <span>النسخة الأولى</span>
                         <ChevronLeft size={20} className="mr-2" />
                     </Link>
                     <Link
-                        href="/collections/edition-2"
-                        className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors"
-                    >
+                  href="/collections/edition-2"
+                  className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors">
+
                         <span>النسخة الثانية</span>
-                        <ChevronLeft size={20} className="mr-2"/>
+                        <ChevronLeft size={20} className="mr-2" />
                     </Link>
                   </div>
               </div>
             </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
