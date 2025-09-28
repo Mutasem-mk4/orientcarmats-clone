@@ -35,14 +35,14 @@ const HeroSection = () => {
                   href="/collections/edition-i"
                   className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors">
 
-                        <span>النسخة الأولى</span>
+                        <span></span>
                         <ChevronLeft size={20} className="mr-2" />
                     </Link>
                     <Link
                   href="/collections/edition-2"
                   className="flex w-full sm:w-auto items-center justify-between bg:white text-foreground px-8 py-3 rounded text-base font-medium hover:bg-gray-100 transition-colors">
 
-                        <span>ا</span>
+                        <span className="!whitespace-pre-line">ا</span>
                         <ChevronLeft size={20} className="mr-2" />
                     </Link>
                   </div>
